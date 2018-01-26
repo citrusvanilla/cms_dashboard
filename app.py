@@ -22,6 +22,7 @@ raw_data['year'] = raw_data['Date of Contact'].dt.year
 
 # Instantiate a Dash object.
 app = dash.Dash()
+server = app.server
 
 # Main Dash layout.
 app.layout = html.Div(children=[
